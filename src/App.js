@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
+import "./Message";
 import "./App.css";
+import Message from "./Message";
 
 function App() {
-  const defaultMessage = "Greetings from your fridge door";
-  const [sinceID, setSinceID] = useState(0);
+  const defaultMessage = { id: 0, text:"Greetings from your fridge door" };
   const [currentMessage, setCurrentMessage] = useState(defaultMessage);
 
   useEffect(() => {
@@ -16,13 +17,12 @@ function App() {
 
   const updateMessage = async () => {
     const message = await getMessage();
-    setSinceID(message? message.id : 0);
-    setCurrentMessage(message? message.text: defaultMessage);
+    setCurrentMessage(message? message : defaultMessage);
   }
 
   const getMessage = async () => {
     const response = await fetch(
-      `http://127.0.0.1:8000/messages?count=1&since_id=${sinceID}`,
+      `/messages?count=1&since_id=${currentMessage.id}`,
       {
         mode: "cors",
       }
@@ -34,9 +34,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
-          {currentMessage}
-        </p>
+        <Message message={currentMessage} />
       </header>
     </div>
   );
