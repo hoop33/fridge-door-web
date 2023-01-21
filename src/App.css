@@ -2,17 +2,43 @@
   text-align: center;
 }
 
-.App-header {
+.App-billboard {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(48px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-0 {
+  background-color: #623b5a;
+  color: #edafb8;
+}
+
+.App-1 {
+  background-color: #e8ebf7;
+  color: #00487c;
+}
+
+.App-2 {
+  background-color: #93b48b;
+  color: #111;
+}
+
+.App-3 {
+  background-color: #423e28;
+  color: #f1e9db;
+}
+
+.App-4 {
+  background-color: #555b6e;
+  color: #f0ec57;
+}
+
+.App-5 {
+  background-color: #66ced6;
+  color: #283f3b;
 }
