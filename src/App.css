@@ -9,7 +9,7 @@
   text-align: center;
 }
 
-.App-billboard {
+.New-Message {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -20,37 +20,48 @@
   color: white;
 }
 
-.App-0 {
+.Message-Board {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(48px + 2vmin);
+  color: white;
+}
+
+.Message-Board-0 {
   background-color: #623b5a;
   color: #edafb8;
   font-family: Montserrat, sans-serif;
 }
 
-.App-1 {
+.Message-Board-1 {
   background-color: #e8ebf7;
   color: #00487c;
   font-family: Caveat, sans-serif;
 }
 
-.App-2 {
+.Message-Board-2 {
   background-color: #93b48b;
   color: #111;
   font-family: 'Secular One', sans-serif;
 }
 
-.App-3 {
+.Message-Board-3 {
   background-color: #423e28;
   color: #f1e9db;
   font-family: 'Permanent Marker', sans-serif;
 }
 
-.App-4 {
+.Message-Board-4 {
   background-color: #555b6e;
   color: #f0ec57;
   font-family: 'Lexend', sans-serif;
 }
 
-.App-5 {
+.Message-Board-5 {
   background-color: #66ced6;
   color: #283f3b;
   font-family: 'Patrick Hand', sans-serif;
