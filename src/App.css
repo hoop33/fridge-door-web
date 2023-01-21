@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Caveat');
+@import url('https://fonts.googleapis.com/css2?family=Secular+One');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css2?family=Lexend');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand');
+
 .App {
   text-align: center;
 }
@@ -16,29 +23,35 @@
 .App-0 {
   background-color: #623b5a;
   color: #edafb8;
+  font-family: Montserrat, sans-serif;
 }
 
 .App-1 {
   background-color: #e8ebf7;
   color: #00487c;
+  font-family: Caveat, sans-serif;
 }
 
 .App-2 {
   background-color: #93b48b;
   color: #111;
+  font-family: 'Secular One', sans-serif;
 }
 
 .App-3 {
   background-color: #423e28;
   color: #f1e9db;
+  font-family: 'Permanent Marker', sans-serif;
 }
 
 .App-4 {
   background-color: #555b6e;
   color: #f0ec57;
+  font-family: 'Lexend', sans-serif;
 }
 
 .App-5 {
   background-color: #66ced6;
   color: #283f3b;
+  font-family: 'Patrick Hand', sans-serif;
 }
