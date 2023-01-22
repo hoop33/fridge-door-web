@@ -11,7 +11,7 @@
 
 .New-Message {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,15 +20,28 @@
   color: white;
 }
 
+.New-Message-Footer {
+  background-color: #282c34;
+  min-height: 10vh;
+}
+
+.New-Message-Footer a {
+  color: white;
+}
+
 .Message-Board {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(48px + 2vmin);
   color: white;
+}
+
+.Message-Board-Footer {
+  min-height: 10vh;
 }
 
 .Message-Board-0 {
@@ -37,10 +50,18 @@
   font-family: Montserrat, sans-serif;
 }
 
+.Message-Board-0 a {
+  color: #edafb8;
+}
+
 .Message-Board-1 {
   background-color: #e8ebf7;
   color: #00487c;
   font-family: Caveat, sans-serif;
+}
+
+.Message-Board-1 a {
+  color: #00487c;
 }
 
 .Message-Board-2 {
@@ -49,10 +70,18 @@
   font-family: 'Secular One', sans-serif;
 }
 
+.Message-Board-2 a {
+  color: #111;
+}
+
 .Message-Board-3 {
   background-color: #423e28;
   color: #f1e9db;
   font-family: 'Permanent Marker', sans-serif;
+}
+
+.Message-Board-3 a {
+  color: #f1e9db;
 }
 
 .Message-Board-4 {
@@ -61,8 +90,17 @@
   font-family: 'Lexend', sans-serif;
 }
 
+.Message-Board-4 a {
+  color: #f0ec57;
+}
+
 .Message-Board-5 {
   background-color: #66ced6;
   color: #283f3b;
   font-family: 'Patrick Hand', sans-serif;
 }
+
+.Message-Board-5 a {
+  color: #283f3b;
+}
+

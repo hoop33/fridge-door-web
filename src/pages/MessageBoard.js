@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from "react";
+import { Link } from "react-router-dom";
 import Message from "../Message";
 
 function MessageBoard() {
@@ -37,9 +38,14 @@ function MessageBoard() {
   };
 
   return (
-    <div className={`Message-Board Message-Board-${currentIndex}`}>
-      <Message message={currentMessage} />
-    </div>
+    <>
+      <div className={`Message-Board Message-Board-${currentIndex}`}>
+        <Message message={currentMessage} />
+      </div>
+      <div className={`Message-Board-Footer Message-Board-${currentIndex}`}>
+        <Link to="/new">Add a message</Link>
+      </div>
+    </>
   );
 
 }
